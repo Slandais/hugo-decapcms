@@ -1,0 +1,15 @@
+{{ define "main-wrapper" }}
+
+<div class="dark-ribbon">
+    {{ partial "intro" .Params.blurb}}
+</div>
+
+<div class="light-ribbon">
+    {{ partial "short-text" .Params.intro}}
+</div>
+
+<div class="dark-ribbon">
+    {{ partial "short-text" .Params.values}}
+</div>
+
+{{ end }}

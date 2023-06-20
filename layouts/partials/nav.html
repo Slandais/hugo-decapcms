@@ -1,0 +1,14 @@
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="/">{{ .Site.Title }}</a>
+        <ul class="pure-menu-list">
+
+            {{ range.Site.Menus.main.ByWeight }}
+            <li class="pure-menu-item">
+                <a href="{{ .URL }}" class="pure-menu-link">{{ .Name }}</a>
+            </li>
+            {{ end }}
+
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "fr-fr"
+title = "Sitename"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 10
